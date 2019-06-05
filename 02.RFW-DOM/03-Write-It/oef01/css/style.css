@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+
+  font-family: sans-serif;
+
+}
+
+
+.movie{
+  font-size:2rem;
+  line-height: 1.6;
+  display:flex;
+  justify-content:space-between;
+}
+
+.movie:hover{
+  background-color:lightgrey;
+}
+
+.movie span{
+  margin-right: 1rem;
+}

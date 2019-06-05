@@ -1,0 +1,35 @@
+html{
+	height: 100%;
+	font-size: 62.5%;
+}
+
+body{
+	display: flex;
+	flex-flow: column nowrap;
+	height: 100%;
+	font-family: sans-serif;
+	padding: 5rem;
+}
+
+h1{
+	color: #37474f;
+	font-size:3rem;
+}
+
+.shows{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.show{
+	margin: 1rem;
+}
+
+.title{
+	font-size:1.5rem;
+}
+
+
+
+
+

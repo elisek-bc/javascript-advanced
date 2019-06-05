@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  font-family: sans-serif;
+  
+  background-color: black;
+  background-image: url(../assets/img/logo.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  padding: 2rem;
+}
+
+.btn{
+  font-size:2rem;
+}
+
+.info{
+  font-size: 3rem;
+  color: white;
+  font-family: VT323, monospace;
+}

@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  height: 100%;
+
+  padding: 2rem;
+
+  background-color: #c40606;
+  color: white;
+  font-family: sans-serif;
+}
+
+
+p{
+  font-size:5rem;
+  line-height:2;
+}

@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  font-family: sans-serif;
+  font-size:2rem;
+}
+h1{
+  font-size: 4rem;
+}
+
+li{
+  padding:1rem;
+}
+
+input{
+  font-size: 3rem;
+}
+
+.super{
+  background-color:#aed581;
+}
+
+.good{
+  background-color:#ffa726;
+}
+  
+.bad{
+  background-color:#e57373;
+}

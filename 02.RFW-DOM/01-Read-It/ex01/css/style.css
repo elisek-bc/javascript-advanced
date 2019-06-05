@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  font-family: sans-serif;
+
+}
+
+article{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro{
+  font-size: 2rem;
+  width: 50%;
+}

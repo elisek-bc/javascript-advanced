@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100%;
+  font-family: sans-serif;
+  
+  background-color: black;
+}
+
+h1{
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  font-size:5rem;
+  margin-bottom: 5rem;
+}
+
+input{
+  font-size: 3rem;
+  background-color: black;
+  color: white;
+}
+
+li{
+  font-size: 2rem;
+  color: white;
+}
+
+

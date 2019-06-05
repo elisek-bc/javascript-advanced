@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-flow: column nowrap;
+  font-family: sans-serif;
+
+}
+
+h1{
+  color: navy;
+  font-size:4rem;
+}
+
+.mission, .total{
+  font-size:1.7rem;
+  line-height: 1.6;
+  display:flex;
+  justify-content:space-between;
+  font-family: monospace;
+}
+
+.title{
+  flex:1;
+}
+
+.costs{
+  text-align:right;
+  flex:1;
+}
+
+.details{
+  flex:2;
+}
+
+.mission-list{
+  width:90%;
+}

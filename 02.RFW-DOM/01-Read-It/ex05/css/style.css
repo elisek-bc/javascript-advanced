@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+
+  flex-flow: column nowrap;
+  font-family: monospace;
+  color: #e5e5e5;
+
+  background-image: url('../assets/img/wick.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+h1{
+  color: navy;
+  font-size:4rem;
+  background-color: #e5e5e5;
+  color: black;
+}
+
+p{
+  font-size:3rem;
+  margin: 2rem 1rem;
+}

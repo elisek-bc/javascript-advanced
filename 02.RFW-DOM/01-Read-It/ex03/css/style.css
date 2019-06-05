@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 1rem;
+}
+
+h1{
+  font-size:3rem;
+}
+h2{
+  font-size:2.5rem;
+  color: #b7a261;
+}
+
+section{
+  margin-bottom: 3rem;
+}
+
+.nominees-container{
+  display:flex;
+  flex-flow: row wrap;
+}
+
+article{
+  width: 20rem;
+  border:1px solid #b7a261;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+img{
+  width: 18rem;
+}
+
+article h3{
+  font-size: 1.8rem;
+  margin-bottom: .3rem;
+}
+
+h4{
+  color: #b7a261;
+  font-size: 1.4rem;
+}
+
+.producers{
+  font-size: 1.5rem;
+}
