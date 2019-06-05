@@ -84,21 +84,27 @@ console.log(`15b`, $episode5.innerHTML);
 //Is the result the same with innerHTML?
 const $viewersEP5 = $episode5.children[2].lastElementChild;
 $viewersEP5.innerText = `5.33`;
+// It is changing the inner text of the element. When you would use innerHTML, it would remove the span class from around the text.
 
 //17
 //What is happening in this example?
 //Is the result the same with innerText?
 const $viewers = $episodes.children[4].children[2].firstElementChild;
 $viewers.innerHTML = `<a href="#">${$viewers.innerText}</a>`;
+// It converts the name into a link. innerText would just write literally what you put next to it and don't interpret it as HTML.
+
 
 //18
 console.log(`18a`, $search.hasAttribute(`type`));
+//logs if the element has a 'type' attribute
 console.log(`18b`, $search.getAttribute(`type`));
+//logs the type attribute
 $search.setAttribute(`type`, `search`);
+//sets the type attribute to search
 console.log(`18c`, $search.getAttribute(`type`));
 
 //19
 //Describe what we are doing here
 const $nav = document.querySelector(`.nav-link`);
 $nav.classList.add(`active`);
-
+//Select the first item of the class .nav-link. & adds the class 'active' to it.
